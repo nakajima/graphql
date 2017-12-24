@@ -620,7 +620,7 @@ type Fields map[string]*Field
 
 type Field struct {
 	Name              string              `json:"name"` // used by graphlql-relay
-	Type              Output              `json:"type"`
+	Type              Type                `json:"type"`
 	Args              FieldConfigArgument `json:"args"`
 	Resolve           FieldResolveFn
 	DeprecationReason string `json:"deprecationReason"`
