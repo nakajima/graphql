@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/graphql-go/graphql/language/ast"
-	"github.com/graphql-go/graphql/language/location"
-	"github.com/graphql-go/graphql/language/source"
+	"github.com/nakajima/graphql/language/ast"
+	"github.com/nakajima/graphql/language/location"
+	"github.com/nakajima/graphql/language/source"
 )
 
 type Error struct {

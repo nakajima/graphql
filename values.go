@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/graphql-go/graphql/gqlerrors"
-	"github.com/graphql-go/graphql/language/ast"
-	"github.com/graphql-go/graphql/language/kinds"
-	"github.com/graphql-go/graphql/language/printer"
+	"github.com/nakajima/graphql/gqlerrors"
+	"github.com/nakajima/graphql/language/ast"
+	"github.com/nakajima/graphql/language/kinds"
+	"github.com/nakajima/graphql/language/printer"
 	"sort"
 )
 

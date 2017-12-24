@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/graphql-go/graphql"
+	"github.com/nakajima/graphql"
 )
 
 func main() {
